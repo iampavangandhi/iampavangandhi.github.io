@@ -1,0 +1,122 @@
+@media only screen and (max-width: 768px) {
+  
+  
+  header .navbar-brand {
+    padding-left: 1rem;
+    font-size: 1.4em;
+  }
+
+  header .nav-item{
+    padding: 0.5em;
+  }
+
+  header .nav-link{
+    font-size: 0.9em;
+  }
+
+  header .row{
+    margin-left: 1em;
+  }
+
+  header .row .col-md-7 h1{
+    color: white;
+    font-size: 1.5rem;
+  }
+
+   header .row .col-md-7 h4{
+    color: white;
+    font-size: 1.1rem;
+    margin-right: 1.3em;
+  }
+
+  header .btn {
+    border-radius: 30px;
+    margin-top: 0em;
+    font-weight: bold;
+}
+
+  .section-1 .screen .content-sec{
+    width: 0px;
+    height: 0px;
+    background:transparent;
+
+  }
+  .section-1 .screen .content-sec p{
+    font-size: 0px;
+  }
+  .section-1 .screen:nth-child(1){
+    background: url(../assets/first.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 350%;
+  }
+  .section-1 .screen:nth-child(2){
+    background: url(../assets/second.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 350%;
+  }
+  .section-1 .screen:nth-child(3){
+    background: url(../assets/third.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 350%;
+  }
+
+  .section-2 .row .col-md-6 .panel {
+    position: initial;
+    width: initial; 
+    height: initial;
+  }
+
+  .section-2 .row .col-md-6 .pray img {
+    margin-bottom:3em;
+    margin-top: 1em;
+  }
+
+  .section-4 .card {
+    
+    margin: 0.5em;
+    width: 18rem;
+  }
+
+  .section-4 .container h1{
+    font-size: 1.7em;
+  }
+
+ .section-5 .contact {
+    width: 100%;
+    position: initial;
+    width: initial;
+    height: initial;
+    margin: 80px;
+    margin-top: 15px;
+  }
+
+  .section-5 .contact h2{
+    font-size: 1.4em;
+  }
+
+  .section-5 .contact .btn
+  {
+    font-size: 12px;
+  }
+  
+  .quote{
+    padding: 2em;
+    padding-top: 30em;
+  }
+
+  footer .row .col-md-2 {
+    margin-top: 8vmin;
+  }
+
+  footer {
+    padding: 7vmin 15vmin;
+  }
+
+  .sticky{
+    position: absolute;
+  }
+
+
