@@ -401,7 +401,7 @@ footer .column i + i {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 2.5em;
+  height: 3em;
   background: rgba(0, 0, 0, 0.500);
   z-index: 9999;
   transition: all 1.5s ease;
