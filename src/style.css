@@ -183,10 +183,23 @@ header .btn {
   font-weight: bold;
   padding: 0.4em 0;
   color: whitesmoke;
+  font-size: 1.4em;
 }
 
-.section-2 .row .col-md-6 .panel p,h3,h5 {
+.section-2 .row .col-md-6 .panel h3 {
   color: whitesmoke;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.section-2 .row .col-md-6 .panel h5 {
+  color: whitesmoke;
+  font-size: 1em;
+}
+
+.section-2 .row .col-md-6 .panel p {
+  color: whitesmoke;
+  font-size: 0.8em;
 }
 
 @keyframes fadeIn{
@@ -207,7 +220,7 @@ header .btn {
   width: 15rem;
   height: auto;
   padding-top: 3.5vmin;
-  margin: 3rem;
+  margin: 2rem;
   border-radius: 0.5em;
   box-shadow: 0 10px 30px rgba(0,0,0,.5);
 }
@@ -239,7 +252,7 @@ header .btn {
 
 .section-4 .card {
   width: 22em;
-  margin: 3em;
+  margin: 1.6em;
   margin-top: 5vmin;
   margin-bottom: 10vmin;
 }
@@ -255,17 +268,17 @@ header .btn {
 /********** section 5 **************/
 
 .section-5{
-	padding-top: 7vmin;
-	padding-bottom: 10vmin;
-	background-position: center;
-	background: var(--bggradient);
+padding-top: 7vmin;
+padding-bottom: 10vmin;
+background-position: center;
+background: var(--bggradient);
 }
 
 .contact
 {
   width: 30%;
-  padding: 5vmin;
-  padding-top: 8vmin;
+  padding: 4vmin;
+  padding-top: 2vmin;
   margin-left: 30px;
   box-sizing: border-box;
   box-shadow: 0 10px 30px rgba(0,0,0,.5);
@@ -276,7 +289,7 @@ header .btn {
 {
   color: #666;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
 }
 .input-field
 {
@@ -294,7 +307,7 @@ header .btn {
   border: none;
   outline: none;
   border-bottom: 2px solid #666;
-  font-size: 16px;
+  font-size: 12px;
   color: whitesmoke;
   font-weight: 500;
   resize: none;
@@ -306,7 +319,7 @@ header .btn {
   left: 0;
   padding: 3px 0;
   pointer-events: none;
-  font-size: 16px;
+  font-size: 12px;
   color: #666;
   font-weight: 700;
   transition: 0.5s;
