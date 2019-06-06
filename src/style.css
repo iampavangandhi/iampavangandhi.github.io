@@ -68,12 +68,7 @@ header .row .col-md-5 {
 header .row .col-md-5 img {
   width: 90%;
 }
-header:hover .main-img{
-  opacity: 0.2;
-  animation: fadeIn 3s linear forwards;
-  animation-delay: 1s;
-  
-}
+
 header .container .col-md-7 {
   font-family: "Rubik", sans-serif;
 }
@@ -202,14 +197,6 @@ header .btn {
   font-size: 0.8em;
 }
 
-@keyframes fadeIn{
-  0%{
-    opacity: 0.2;
-  }
-  100%{
-    opacity: 1;
-  }
-}
 
 /********** section 3 **************/
 
