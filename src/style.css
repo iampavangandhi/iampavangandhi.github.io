@@ -8,7 +8,11 @@
 
 *{
 	box-sizing: border-box;
-  font-family: var(--Rubik);
+        font-family: var(--Rubik);
+}
+
+html{
+        scroll-behaviour: smooth;
 }
 
 header,section{
