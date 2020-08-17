@@ -1,8 +1,8 @@
 # 👤 Portfolio Website
 
-> ## Checkout Website at https://iampavangandhi.github.io/
-> ### Deployed using [Github Pages](https://pages.github.com/)
-> ### This is a Template Repo you can use it to create your own website.
+> ### Checkout Website at https://iampavangandhi.github.io/
+> #### Deployed using [Github Pages](https://pages.github.com/)
+> #### This is a Template Repo you can use it to create your own website.
 
 ## Technologies Used
 
