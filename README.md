@@ -1,6 +1,23 @@
 # 👤 Portfolio Website
 
 > ## Checkout Website at https://iampavangandhi.github.io/
-> ### This is a Template Repository you can use it to create your Portfolio Website
+> ### Deployed using [Github Pages](https://pages.github.com/)
+> ### This is a Template Repo you can use it to create your own website.
 
-### Created my personal/portfolio website using following technologies HTML5, CSS3, BOOTSTRAP v4.3 and JavaScript.
+## Technologies Used
+
+- #### HTML5
+- #### CSS3
+- #### BOOTSTRAP v4.3
+- #### JavaScript
+- #### FontAwesome (for icons)
+
+## Contributing
+
+Feel free to dive in! [Open an issue](https://github.com/iampavangandhi/iampavangandhi.github.io/issues/new) or submit PRs
+
+## License
+
+[Apache-2.0](LICENSE) © Pavan Gandhi
+
+### Show some ❤️ by starring 🌟 the repository!
