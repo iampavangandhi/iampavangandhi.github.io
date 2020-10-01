@@ -1,50 +1,56 @@
 @import url('https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet&display=swap');
 
-:root{
-  --Snigle-font:"sniglet",cursive;
-  --Rubik:"Rubik",cursive;
+:root {
+  --Snigle-font: 'sniglet', cursive;
+  --Rubik: 'Rubik', cursive;
   --bggradient: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
 }
 
-*{
-	box-sizing: border-box;
-        font-family: var(--Rubik);
+* {
+  box-sizing: border-box;
+  font-family: var(--Rubik);
 }
 
-html{
-        scroll-behaviour: smooth;
+html {
+  scroll-behavior: smooth !important;
 }
 
-header,section{
-	overflow-x: hidden;
+header,
+section {
+  overflow-x: hidden;
 }
 
-body{
-	margin: 0;
-	padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-header a{
+header a {
   font-family: var(--Snigle-font);
-	font-size: 0.9em;
-	color: whitesmoke;
+  font-size: 0.9em;
+  color: whitesmoke;
 }
 
-header{
-	background: #dd2476;
-	background: var(--bggradient);
+header {
+  background: #dd2476;
+  background: var(--bggradient);
 }
 
-header .nav-item:last-child{
-	padding-right: 10.5em;
+header .nav-item:last-child {
+  padding-right: 10.5em;
 }
 
-header .nav-item{
-	padding: 1em;
+header .nav-item {
+  padding: 1em;
 }
 
-header .nav-link{
-	font-size: 1.1em;
+header .nav-link {
+  font-size: 1.1em;
+  /* -webkit-transition: height 0.3s ease-out, opacity 0.3s ease 0.5s;
+  -moz-transition: height 0.3s ease-out, opacity 0.3s ease 0.5s;
+  -o-transition: height 0.3s ease-out, opacity 0.3s ease 0.5s;
+  transition: height 0.3s ease-out, opacity 0.3s ease 0.5s; */
+  transition: all 0.4s ease;
 }
 
 header .navbar-brand {
@@ -55,7 +61,6 @@ header .navbar-brand {
 header .nav-link:hover {
   background: whitesmoke;
   color: black;
-
 }
 
 header .row .col-md-7 {
@@ -74,7 +79,7 @@ header .row .col-md-5 img {
 }
 
 header .container .col-md-7 {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 header .container .col-md-7 h4 {
@@ -90,64 +95,64 @@ header .btn {
 
 /********** section 1 **************/
 
-.section-1{
-	position: relative;
-	height: 105vh;
-	display: flex;
-	background: var(--bggradient);
+.section-1 {
+  position: relative;
+  height: 105vh;
+  display: flex;
+  background: var(--bggradient);
 }
 
-.section-1 .screen{
-	position: relative;
-	flex-grow: 2;
-	display: flex;
-	justify-content: flex-end;
-	align-items: flex-end;
-	overflow: hidden;
-	transition: 1s;
+.section-1 .screen {
+  position: relative;
+  flex-grow: 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow: hidden;
+  transition: 1s;
 }
 
-.section-1 .screen:nth-child(1){
-	background: url(../assets/first.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
+.section-1 .screen:nth-child(1) {
+  background: url(../assets/first.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.section-1 .screen:nth-child(2){
-	background: url(../assets/second.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
+.section-1 .screen:nth-child(2) {
+  background: url(../assets/second.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.section-1 .screen:nth-child(3){
-	background: url(../assets/third.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
+.section-1 .screen:nth-child(3) {
+  background: url(../assets/third.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.section-1 .screen:hover{
-	flex-grow: 5;
+.section-1 .screen:hover {
+  flex-grow: 5;
   opacity: 1;
 }
 
-.section-1 .screen .content-sec{
-	position: absolute;
-	width: 350px;
-	height: auto;
-	background: var(--bggradient);
-	padding: 25px;
-	box-sizing: border-box;
-	transform: translateX(100%);
-	transition: 0.2s;
-	text-align:justify;
+.section-1 .screen .content-sec {
+  position: absolute;
+  width: 350px;
+  height: auto;
+  background: var(--bggradient);
+  padding: 25px;
+  box-sizing: border-box;
+  transform: translateX(100%);
+  transition: 0.2s;
+  text-align: justify;
 }
-.section-1 .screen:hover .content-sec{
-	transform: translateX(0);
-	transition-delay: 0.4s;
+.section-1 .screen:hover .content-sec {
+  transform: translateX(0);
+  transition-delay: 0.4s;
 }
 
-.section-1 .screen .content-sec p{
-	color: whitesmoke;
-	font-family: var(--Rubik);
-	margin: 0;
-	padding: 0;
+.section-1 .screen .content-sec p {
+  color: whitesmoke;
+  font-family: var(--Rubik);
+  margin: 0;
+  padding: 0;
 }
 
 /********** section 2 **************/
@@ -173,7 +178,7 @@ header .btn {
   border-radius: 3px;
   text-align: left;
   padding: 4vmin 4vmin 7vmin 5vmin;
-  box-shadow: 0 10px 30px rgba(0,0,0,.5);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
   font-family: var(--Rubik);
   z-index: 1;
 }
@@ -201,7 +206,6 @@ header .btn {
   font-size: 0.8em;
 }
 
-
 /********** section 3 **************/
 
 .numbers .rect {
@@ -213,7 +217,7 @@ header .btn {
   padding-top: 3.5vmin;
   margin: 2rem;
   border-radius: 0.5em;
-  box-shadow: 0 10px 30px rgba(0,0,0,.5);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .numbers .rect h1 {
@@ -221,23 +225,26 @@ header .btn {
   color: tomato;
 }
 
-.numbers .rect p{
+.numbers .rect p {
   font-family: var(--Rubik);
   font-size: 1.5rem;
 }
 
-.section-3{
-	background: #dd2476;
-	background: var(--bggradient);
+.section-3 {
+  background: #dd2476;
+  background: var(--bggradient);
 }
 
 /********** section 4 **************/
-
-.section-4 .container{
+#main-project {
+  height: 100vh;
+}
+.section-4 .container {
   padding-top: 6vmin;
+  height: auto;
 }
 
-.section-4 .container .secondary-text{
+.section-4 .container .secondary-text {
   font-size: 3vmin;
 }
 
@@ -246,6 +253,10 @@ header .btn {
   margin: 1.6em;
   margin-top: 5vmin;
   margin-bottom: 10vmin;
+  transition: transform 0.3s ease-in-out;
+}
+.section-4 .card:hover {
+  transform: scale(1.05);
 }
 
 .section-4 .card .card-text {
@@ -258,39 +269,36 @@ header .btn {
 
 /********** section 5 **************/
 
-.section-5{
-padding-top: 7vmin;
-padding-bottom: 10vmin;
-background-position: center;
-background: var(--bggradient);
+.section-5 {
+  padding-top: 7vmin;
+  padding-bottom: 10vmin;
+  background-position: center;
+  background: var(--bggradient);
+  margin: auto;
 }
 
-.contact
-{
-  width: 30%;
+.contact {
+  width: 40%;
   padding: 4vmin;
   padding-top: 2vmin;
   margin-left: 30px;
   box-sizing: border-box;
-  box-shadow: 0 10px 30px rgba(0,0,0,.5);
-  float:left;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  float: left;
 }
 
-.contact h2
-{
+.contact h2 {
   color: #666;
   text-align: center;
   font-size: 20px;
 }
-.input-field
-{
+.input-field {
   position: relative;
   width: 100%;
   margin-top: 50px;
 }
 .input-field input,
-.input-field textarea
-{
+.input-field textarea {
   width: 100%;
   padding: 5px 0;
   box-sizing: border-box;
@@ -303,8 +311,7 @@ background: var(--bggradient);
   font-weight: 500;
   resize: none;
 }
-.input-field label
-{
+.input-field label {
   position: absolute;
   top: 0;
   left: 0;
@@ -318,8 +325,7 @@ background: var(--bggradient);
 .input-field input:focus + label,
 .input-field textarea:focus + label,
 .input-field input:valid + label,
-.input-field textarea:valid + label
-{
+.input-field textarea:valid + label {
   top: -25px;
   font-size: 14px;
   padding: 2px 5px;
@@ -327,8 +333,7 @@ background: var(--bggradient);
   color: #fff;
   border-radius: 4px;
 }
-.section-5 .contact .btn
-{
+.section-5 .contact .btn {
   margin-top: 10px;
   background: #ff006a;
   color: #fff;
@@ -340,17 +345,19 @@ background: var(--bggradient);
   font-size: 16px;
   transition: 0.5s;
 }
-.section-5 .contact .btn:hover
-{
+.section-5 .contact .btn:hover {
   background: #dd2476;
 }
 
-.quote{
-	color: whitesmoke;
-	text-align:center;
-	padding-right: 2em;
-	padding-top: 9em;
-	font-weight: 500;
+.quote {
+  width: 50%;
+  margin-left: auto;
+  margin-right: 40px;
+  padding-top: 10em;
+
+  color: whitesmoke;
+  padding-top: 10em;
+  font-weight: 500;
   font-size: 16px;
 }
 
@@ -360,9 +367,10 @@ footer {
   background: rgba(0, 0, 0, 0.815);
   overflow-x: hidden;
   padding: 7vmin 22vmin;
+  padding-bottom: 10px;
 }
 
-footer .sp{
+footer .sp {
   color: #ff512f;
 }
 
@@ -381,7 +389,17 @@ footer .input-group .input-group-text {
 
 footer .column i {
   color: #dd2476;
-  margin: 0.4rem
+  margin: 0.4rem;
+  font-size: 2em;
+  transition: color 0.3s linear;
+}
+footer .column i:hover {
+  color: #ff4e9e;
+}
+
+footer p.gmail {
+  color: #dd2476;
+  transition: color 0.3s linear;
 }
 
 footer .column i + i {
@@ -393,8 +411,7 @@ footer .column i + i {
   top: 0;
   width: 100%;
   height: 3em;
-  background: rgba(0, 0, 0, 0.500);
+  background: rgba(0, 0, 0, 0.5);
   z-index: 9999;
   transition: all 1.5s ease;
 }
-
