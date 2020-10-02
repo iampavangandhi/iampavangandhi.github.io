@@ -83,14 +83,15 @@
   .section-4 .container h1{
     font-size: 1.7em;
   }
-
+  .section-5{
+    padding: 1rem;
+  }
  .section-5 .contact {
-    width: 100%;
-    position: initial;
-    width: initial;
-    height: initial;
-    margin: 80px;
-    margin-top: 15px;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+    margin-left: 0;
+    padding: 1rem 1rem;
   }
 
   .section-5 .contact h2{
@@ -105,6 +106,9 @@
   .quote{
     padding: 2em;
     padding-top: 30em;
+    width: 100%;
+    padding-left:  0;
+    padding-right:  0;
   }
 
   footer .row .col-md-2 {
@@ -120,3 +124,4 @@
   }
 
 
+}

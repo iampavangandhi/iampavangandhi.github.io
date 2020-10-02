@@ -275,6 +275,7 @@ header .btn {
   background-position: center;
   background: var(--bggradient);
   margin: auto;
+  width: 100%;
 }
 
 .contact {
@@ -414,4 +415,8 @@ footer .column i + i {
   background: rgba(0, 0, 0, 0.5);
   z-index: 9999;
   transition: all 1.5s ease;
+}
+.form-container h2{
+  color: #fff;
+  font-size: 1.9rem;
 }
