@@ -121,11 +121,11 @@
   }
 
   footer .row .col-md-2 {
-    margin-top: 8vmin;
+    margin-top: 5vmin;
   }
 
   footer {
-    padding: 7vmin 15vmin;
+    padding: 10vmin 12vmin 5vmin 12vmin;
   }
 
   .sticky {

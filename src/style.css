@@ -192,18 +192,23 @@ header .btn {
 
 .section-2 .row .col-md-6 .panel h3 {
   color: whitesmoke;
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-weight: bold;
 }
 
-.section-2 .row .col-md-6 .panel h5 {
+.section-2 .row .col-md-6 .panel h4 {
+  color: whitesmoke;
+  font-size: 1.2em;
+}
+
+.section-2 .row .col-md-6 .panel h6 {
   color: whitesmoke;
   font-size: 1em;
 }
 
 .section-2 .row .col-md-6 .panel p {
   color: whitesmoke;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 /********** section 3 **************/
