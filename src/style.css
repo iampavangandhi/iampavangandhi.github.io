@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet&display=swap");
 
 :root {
-  --Snigle-font: 'sniglet', cursive;
-  --Rubik: 'Rubik', cursive;
+  --Snigle-font: "sniglet", cursive;
+  --Rubik: "Rubik", cursive;
   --bggradient: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
 }
 
@@ -32,7 +32,6 @@ header a {
 }
 
 header {
-  background: #dd2476;
   background: var(--bggradient);
 }
 
@@ -79,7 +78,7 @@ header .row .col-md-5 img {
 }
 
 header .container .col-md-7 {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 header .container .col-md-7 h4 {
@@ -236,12 +235,8 @@ header .btn {
 }
 
 /********** section 4 **************/
-#main-project {
-  height: 100vh;
-}
 .section-4 .container {
   padding-top: 6vmin;
-  height: auto;
 }
 
 .section-4 .container .secondary-text {
@@ -355,6 +350,7 @@ header .btn {
   margin-right: 40px;
   padding-top: 10em;
 
+  text-align: center;
   color: whitesmoke;
   padding-top: 10em;
   font-weight: 500;

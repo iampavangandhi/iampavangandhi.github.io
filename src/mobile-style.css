@@ -1,62 +1,69 @@
 @media only screen and (max-width: 768px) {
-  
-  
   header .navbar-brand {
     padding-left: 1rem;
     font-size: 1.4em;
   }
 
-  header .nav-item{
+  header .nav-item {
     padding: 0.5em;
   }
 
-  header .nav-link{
+  header .nav-link {
     font-size: 0.9em;
   }
 
-  header .row{
+  header .row {
     margin-left: 1em;
   }
 
-  header .row .col-md-7 h1{
+  header .row .col-md-7 h1 {
     color: white;
     font-size: 1.5rem;
   }
 
-   header .row .col-md-7 h4{
+  header .row .col-md-7 h4 {
     color: white;
     font-size: 1.1rem;
     margin-right: 1.3em;
+  }
+
+  .header-ctr {
+    display: block;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .header-text h2 {
+    font-size: 28px;
   }
 
   header .btn {
     border-radius: 30px;
     margin-top: 0em;
     font-weight: bold;
-}
+  }
 
-  .section-1 .screen .content-sec{
+  .section-1 .screen .content-sec {
     width: 0px;
     height: 0px;
-    background:transparent;
-
+    background: transparent;
   }
-  .section-1 .screen .content-sec p{
+  .section-1 .screen .content-sec p {
     font-size: 0px;
   }
-  .section-1 .screen:nth-child(1){
+  .section-1 .screen:nth-child(1) {
     background: url(../assets/first.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 350%;
   }
-  .section-1 .screen:nth-child(2){
+  .section-1 .screen:nth-child(2) {
     background: url(../assets/second.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 350%;
   }
-  .section-1 .screen:nth-child(3){
+  .section-1 .screen:nth-child(3) {
     background: url(../assets/third.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -65,46 +72,52 @@
 
   .section-2 .row .col-md-6 .panel {
     position: initial;
-    width: initial; 
+    width: initial;
     height: initial;
   }
 
   .section-2 .row .col-md-6 .pray img {
-    margin-bottom:3em;
+    margin-bottom: 3em;
     margin-top: 1em;
   }
 
-  .section-4 .card {
-    
-    margin: 0.5em;
-    width: 18rem;
+  .cards {
+    margin: 40px 0;
   }
 
-  .section-4 .container h1{
+  .section-4 .card {
+    margin: 1em 0.5em;
+    width: 20rem;
+  }
+
+  .section-4 .container h1 {
     font-size: 1.7em;
   }
 
- .section-5 .contact {
-    width: 100%;
+  .section-5 .contact {
     position: initial;
     width: initial;
     height: initial;
-    margin: 80px;
+    width: 80%;
+    margin-left: 40px;
+    margin-bottom: 75px;
     margin-top: 15px;
   }
 
-  .section-5 .contact h2{
+  .section-5 .contact h2 {
     font-size: 1.4em;
   }
 
-  .section-5 .contact .btn
-  {
+  .section-5 .contact .btn {
     font-size: 12px;
   }
-  
-  .quote{
-    padding: 2em;
-    padding-top: 30em;
+
+  .quote {
+    text-align: center;
+    width: 100%;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
   }
 
   footer .row .col-md-2 {
@@ -115,8 +128,7 @@
     padding: 7vmin 15vmin;
   }
 
-  .sticky{
+  .sticky {
     position: absolute;
   }
-
-
+}
