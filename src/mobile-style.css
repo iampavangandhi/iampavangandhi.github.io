@@ -2,6 +2,7 @@
   header .navbar-brand {
     padding-left: 1rem;
     font-size: 1.4em;
+    scroll-behivaior: Smooth;
   }
 
   header .nav-item {
