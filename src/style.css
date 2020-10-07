@@ -417,3 +417,24 @@ footer .column i + i {
   z-index: 9999;
   transition: all 1.5s ease;
 }
+#myBtn {
+  display: none;
+  position: fixed;
+  height:40px;
+  width:40px;
+  z-index:100;
+  bottom: 55px;
+  right: 30px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: grey;
+  color:#ffff;
+  cursor: pointer;
+  padding: 0px;
+  border-radius: 50%;
+}
+
+#myBtn:hover {
+  background-color: #404040;
+}
