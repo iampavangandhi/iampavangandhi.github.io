@@ -45,11 +45,12 @@ header .nav-item {
 
 header .nav-link {
   font-size: 1.1em;
-  /* -webkit-transition: height 0.3s ease-out, opacity 0.3s ease 0.5s;
-  -moz-transition: height 0.3s ease-out, opacity 0.3s ease 0.5s;
-  -o-transition: height 0.3s ease-out, opacity 0.3s ease 0.5s;
-  transition: height 0.3s ease-out, opacity 0.3s ease 0.5s; */
-  transition: all 0.4s ease;
+  background: linear-gradient(to right, white, #ccc, white );
+  background-size: 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.5s ease-out;
 }
 
 header .navbar-brand {
@@ -58,10 +59,10 @@ header .navbar-brand {
 }
 
 header .nav-link:hover {
-  background: whitesmoke;
-  color: black;
+  background-position: -100%;
+  transform: rotate(20deg);
 }
-
+  
 header .row .col-md-7 {
   padding: 22vmin 1vmin;
   padding-bottom: 28vmin;
