@@ -286,6 +286,8 @@ header .btn {
   box-sizing: border-box;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
   float: left;
+  border-radius: 25px;
+  background-color: white;
 }
 
 .contact h2 {
@@ -308,7 +310,7 @@ header .btn {
   outline: none;
   border-bottom: 2px solid #666;
   font-size: 12px;
-  color: whitesmoke;
+  /* color: whitesmoke; */
   font-weight: 500;
   resize: none;
 }
