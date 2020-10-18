@@ -9,6 +9,7 @@
 * {
   box-sizing: border-box;
   font-family: var(--Rubik);
+  scroll-behavior: smooth;
 }
 
 html {
@@ -44,13 +45,13 @@ header .nav-item {
 }
 
 header .nav-link {
-  font-size: 1.1em;
-  background: linear-gradient(to right, white, #ccc, white );
+  font-size: 1.2em;
+  background: white;
   background-size: 200%;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  transition: 0.5s ease-out;
+  transition: 0.3s ease-out;
 }
 
 header .navbar-brand {
@@ -60,9 +61,9 @@ header .navbar-brand {
 
 header .nav-link:hover {
   background-position: -100%;
-  transform: rotate(20deg);
+  transform: rotate(10deg);
 }
-  
+
 header .row .col-md-7 {
   padding: 22vmin 1vmin;
   padding-bottom: 28vmin;

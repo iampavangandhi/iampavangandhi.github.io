@@ -9,7 +9,11 @@
   }
 
   header .nav-link {
-    font-size: 0.9em;
+    font-size: 1em;
+  }
+
+  header .nav-link:hover {
+    transform: rotate(0deg);
   }
 
   header .row {
