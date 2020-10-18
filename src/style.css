@@ -422,16 +422,16 @@ footer .column i + i {
 #myBtn {
   display: none;
   position: fixed;
-  height:40px;
-  width:40px;
-  z-index:100;
+  height: 40px;
+  width: 40px;
+  z-index: 100;
   bottom: 55px;
   right: 30px;
   font-size: 20px;
   border: none;
   outline: none;
   background-color: grey;
-  color:#ffff;
+  color: #ffff;
   cursor: pointer;
   padding: 0px;
   border-radius: 50%;
